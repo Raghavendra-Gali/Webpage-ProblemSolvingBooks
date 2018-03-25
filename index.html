@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style >
+	#buttons{
+		display: flex;
+		align-content: center;
+		padding-top: 10%;
+	}
+	body{
+		font-size: 100%;
+		font-style: oblique; 
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1 style="text-align: center;padding-bottom: 5%;">Problem Solving Books</h1>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="" id="img">
+					</div>
+					<div class="col-md-6">
+						<h5 id="author" style="font-size: 150%;">author</h5>
+						<h5 id="price">price</h5>
+						<h5 id="publisher">publisher</h5>
+						<h5 id="year">year</h5>
+					</div>
+				<div class="row" id="buttons">
+					<div class="col-lg-12">
+						<br>
+						<button id="previous" type="button" class="btn btn-primary" onclick="prev()">Previous</button>
+						<button id="Next" type="button" class="btn btn-primary" onclick="next()">Next</button>
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-lg-12" style="padding-top: 20%;">
+						<h6>Web Page Developed by Raghavendra Gali</h6>
+						<h6>Email:gargvd0@gmail.com</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="col-md-7">
+				<div class="row">
+					<div class="col-lg-12" style="">
+						<h4 id="booktitle" style="text-align: center;">Book Title</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12" style="">
+						<h6 id="Description" style="text-align: center;">Description</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12" style="">
+					<a id="bookpreview"  style="text-align: center;" href="" target="_blank">bookpreview</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="books.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
